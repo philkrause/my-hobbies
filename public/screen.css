@@ -1,5 +1,16 @@
 :root {
   font: 16px / 1 sans-serif;
+  background-color:rgb(198, 147, 231, .5);
+  background: url('https://i.pinimg.com/originals/a8/e0/0d/a8e00d2304ed69b918f1defb1b87aa87.jpg') bottom center;
+
+}
+
+.title{
+  display:flex;
+  justify-content:center;
+  font-size: 100px;
+  text-shadow: rgb(43, 255, 0);
+  color: rgb(0, 255, 221);  
 }
 
 html {
@@ -7,6 +18,13 @@ html {
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
+color: rgb(201, 147, 255);
+
+}
+
+.list{
+  text-align:center;
+  font-size: 50px; 
+  text-decoration: none;
+  list-style:none;  
 }
